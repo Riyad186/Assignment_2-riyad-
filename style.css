@@ -1,0 +1,215 @@
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+
+    
+}
+.heading{
+    color: skyblue;
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(pink,tomato);
+   
+    padding:10px 40px;
+    color: white;
+   
+    border-radius: 5px;
+    
+}
+.link-button:hover{
+    color:black;
+}
+
+.mission{
+    width: 50%;
+    margin: 70px;
+}
+.mission img{
+    
+    width: 300px;
+    background-position: 50%;
+    
+    
+
+}
+
+
+
+section{
+    
+    display: flex;
+    margin: 50 px;
+
+}
+.color{
+    color: skyblue;
+ 
+
+}
+#id {
+    text-align: center;
+}
+.my{
+    text-align: center;
+}
+.part1{
+background-color: whitesmoke;
+}
+
+
+.half-width1 {
+    
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:2%;
+    box-shadow: 10px 10px 30px gray;
+ 
+}
+#web-dev{
+  
+    background-color: whitesmoke;
+
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:left;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  
+
+
+}
+#web-tech{
+    
+    background-color: whitesmoke;
+
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:left;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+
+
+}
+#web-task{
+    background-color: whitesmoke;
+
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:left;
+    margin-bottom: 50px;
+    margin-top: 20px;
+   
+
+
+}
+
+.section-3 img{
+    
+    width: 300px;
+    background-position: 50%;
+    background-size: cover;
+
+    
+    
+
+}
+.sec-3 {
+    margin-left: 12px;
+}
+.right-button a{
+    text-decoration: none;
+    color: tomato;
+
+
+    
+}
+.right-button a:hover{
+    color: red;
+}
+.right-button{
+  
+    text-align: end;
+}
+
+footer p{
+    text-align: center;
+    
+
+}
+.half-width1 .artcell{
+    color: gold;
+}
+.review{
+    color:rgb(70, 70, 70);
+    text-align: center;
+}
+.technology{
+    padding-left: 30px;
+}
+#font{
+    text-align: center;
+ color:white;
+ margin: 10px;
+ padding: 10px;
+}
+/* -------------media queries------------- */
+@media only screen and (max-width:688) {
+    .second-part{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    #web-dev{
+  
+        background-color: whitesmoke;
+    
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position:left;
+        margin-bottom: 10px;
+        margin-top: 15px;
+      
+    
+    
+    }
+    #web-tech{
+        
+        background-color: whitesmoke;
+  
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position:left;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    
+    
+    
+    }
+    #web-task{
+        background-color: whitesmoke;
+    
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position:left;
+        margin-bottom: 10px;
+        margin-top: 15px;
+       
+    
+    
+    }
+    
+    
+}
+
+
+.Footer-color{
+    background-color: rgb(39, 39, 88);
+}
+.myfooter{
+    text-align: center;
+    color: white;
+}
+
+
